@@ -37,6 +37,7 @@ ft = cutsets.get_ft(aircraft.csv)
 cs = cutsets.mocus(ft)
 
 print (cs)
+```
 
 ```
 output:
