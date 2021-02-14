@@ -10,6 +10,7 @@ FT-MCS is small library which computes the minimal cutsets of a given fault tree
 ### 1) aircraft.csv
 
 ```csv
+TOP,And,B1 B2
 B1,Or,C1 C2 C3 C4
 B2,Or,C5 C6 C7
 C1,And,D1 D2
