@@ -3,6 +3,8 @@ FT-MCS is small library which computes the minimal cutsets of a given fault tree
 
 ## Installation 
 
+Install from [PyPi](https://pypi.org/project/cutsets/)
+
 > pip install cutsets==1.2
 
 ## Usage
@@ -26,13 +28,16 @@ E6,Or,D2 D4 D6
 C7,And,D8 E7
 E7,Or,D4 D9
 ```
-> import cutsets
 
-> ft = cutsets.get_ft(aircraft.csv)
+```python
+import cutsets
 
-> cs = cutsets.mocus(ft)
+ft = cutsets.get_ft(aircraft.csv)
 
-> print (cs)
+cs = cutsets.mocus(ft)
+
+print (cs)
+
 ```
 output:
 
