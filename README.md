@@ -1,5 +1,5 @@
 # FT-MCS
-FT-MCS is small library which computes the minimal cutsets of a given fault tree using the famous MOCUS algorithm. 
+FT-MCS is small library which computes the minimal cutsets of a given fault tree using the famous MOCUS algorithm [1,2]. 
 
 
 ## Usage
@@ -58,3 +58,8 @@ Output:
 [['a'], ['b'], ['d', 'c']]
 
 ```
+
+## References
+
+1. N. Limnios and R. Ziani, "An Algorithm for Reducing Cut Sets in Fault-Tree Analysis," in IEEE Transactions on Reliability, vol. 35, no. 5, pp. 559-562, Dec. 1986, doi: 10.1109/TR.1986.4335545.
+2. J. B. Fussell, W. E. Vesely,"A New Methodology for Obtaining Cut Sets for Fault Trees", Trans. Am. Nucl. Soc., vol 15, 1972 Jun, pp 262-263.
