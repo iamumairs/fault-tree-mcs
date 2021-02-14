@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 ===============================================================================
-    File name: mcs.py
+    File name: cutsets.py
     Author: Umair Siddique
     Description: Accepts a fault tree and generates the minmal cutsets
     Licence: MIT
