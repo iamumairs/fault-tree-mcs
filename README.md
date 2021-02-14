@@ -1,5 +1,5 @@
 # FT-MCS
-FT-MCS is small library which computes the minimal cutsets of a given fault tree using the famous MOCUS algorithm [1,2]. 
+FT-MCS is small library which computes the minimal cutsets of a given fault tree using the famous MOCUS algorithm [1, 2]. 
 
 ## Installation 
 
