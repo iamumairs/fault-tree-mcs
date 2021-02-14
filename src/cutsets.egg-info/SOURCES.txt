@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/cutsets.py
+src/cutsets.egg-info/PKG-INFO
+src/cutsets.egg-info/SOURCES.txt
+src/cutsets.egg-info/dependency_links.txt
+src/cutsets.egg-info/requires.txt
+src/cutsets.egg-info/top_level.txt

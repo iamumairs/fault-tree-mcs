@@ -1,0 +1,5 @@
+TOP,And,G1 G3
+G1,Or,G2 A
+G2,Or,B C
+G3,Or,C G4
+G4,And,A B
