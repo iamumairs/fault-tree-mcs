@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: cutsets
-Version: 1.3
+Version: 1.4
 Summary: Computation of minimal cutsets using MOCUS Algorithm
 Home-page: https://github.com/iamumairs/fault-tree-mcs
 Author: Umair Siddique
@@ -12,7 +12,7 @@ Description: # FT-MCS
         
         Install from [PyPi](https://pypi.org/project/cutsets/)
         
-        > pip install cutsets==1.2
+        > pip install cutsets
         
         ## Usage
         

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="cutsets",                     
-    version="1.3",                       
+    version="1.4",                       
     author="Umair Siddique",                 
     url="https://github.com/iamumairs/fault-tree-mcs",
     description="Computation of minimal cutsets using MOCUS Algorithm",

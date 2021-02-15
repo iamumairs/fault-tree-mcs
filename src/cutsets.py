@@ -36,6 +36,10 @@ def get_ft(name):
     return(ft)
 
 
+And = "And"
+Or = "Or"
+
+
 def rewrite_and(e, r, l):
     r.remove(e)
     for i in l:
