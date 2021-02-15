@@ -5,7 +5,7 @@ FT-MCS is small library which computes the minimal cutsets of a given fault tree
 
 Install from [PyPi](https://pypi.org/project/cutsets/)
 
-> pip install cutsets==1.2
+> pip install cutsets
 
 ## Usage
 

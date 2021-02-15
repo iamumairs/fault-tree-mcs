@@ -10,11 +10,16 @@
 '''
 import os
 import itertools
-import pandas
 import csv
 
 
 class ErrorMsg(Exception):
+    pass
+
+class ErrorMsg(Exception):
+    """
+    Taken from https://community.esri.com/thread/140022
+    """
     pass
 
 def get_ft(name):
@@ -29,10 +34,6 @@ def get_ft(name):
             raise ErrorMsg(
                 "Exceptiopn: Only And/OR gates are accepted in the Fault Tree")
     return(ft)
-
-
-And = "And"
-Or = "Or"
 
 
 def rewrite_and(e, r, l):
@@ -79,7 +80,7 @@ def find_element_to_expand(paths, d):
     for row in paths:
         for e in row:
             try:
-              #  x = d[e]  # Optional -- we can return x as well
+                x = d[e]  # Optional -- we can return x as well
                 return (paths.index(row), row.index(e))
             except KeyError:
                 continue

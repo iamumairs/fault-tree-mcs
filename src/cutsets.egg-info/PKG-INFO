@@ -1,16 +1,18 @@
 Metadata-Version: 2.1
 Name: cutsets
-Version: 1.2
+Version: 1.3
 Summary: Computation of minimal cutsets using MOCUS Algorithm
 Home-page: https://github.com/iamumairs/fault-tree-mcs
 Author: Umair Siddique
 License: MIT
 Description: # FT-MCS
-        FT-MCS is small library which computes the minimal cutsets of a given fault tree using the famous MOCUS algorithm [1,2]. 
+        FT-MCS is small library which computes the minimal cutsets of a given fault tree using the famous MOCUS algorithm [1, 2]. 
         
         ## Installation 
         
-        > pip install cutsets
+        Install from [PyPi](https://pypi.org/project/cutsets/)
+        
+        > pip install cutsets==1.2
         
         ## Usage
         
@@ -33,13 +35,17 @@ Description: # FT-MCS
         C7,And,D8 E7
         E7,Or,D4 D9
         ```
-        > import cutsets
         
-        > ft = cutsets.get_ft(aircraft.csv)
+        ```python
+        import cutsets
         
-        > cs = cutsets.mocus(ft)
+        ft = cutsets.get_ft(aircraft.csv)
         
-        > print (cs)
+        cs = cutsets.mocus(ft)
+        
+        print (cs)
+        ```
+        
         ```
         output:
         

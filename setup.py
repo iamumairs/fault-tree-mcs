@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="cutsets",                     
-    version="1.2",                       
+    version="1.3",                       
     author="Umair Siddique",                 
     url="https://github.com/iamumairs/fault-tree-mcs",
     description="Computation of minimal cutsets using MOCUS Algorithm",
@@ -21,5 +21,5 @@ setuptools.setup(
     python_requires='>=3.6',          
     py_modules=["cutsets"],           
     package_dir={'':'src'},      
-    install_requires=["pandas"]
+    install_requires=[]
 )
